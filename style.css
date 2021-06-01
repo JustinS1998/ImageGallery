@@ -1,0 +1,8 @@
+#image-selection {
+    display: flex;
+}
+#image-selection img {
+    max-width: 500px;
+    min-width: 100px;
+    flex: 1 100px;
+}
