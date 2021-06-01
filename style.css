@@ -6,3 +6,11 @@
     min-width: 100px;
     flex: 1 100px;
 }
+#focus {
+   display: flex;
+}
+#focus img {
+    max-width: 2500px;
+    min-width: 500px;
+    flex: 1 500px;
+}
