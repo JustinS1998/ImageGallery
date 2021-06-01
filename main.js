@@ -8,3 +8,15 @@ for (i=0; i<images.length; i++) {
         focus.src = source;
     });
 }
+
+const button = document.querySelector("button");
+let isDark = false;
+button.addEventListener('click', function () {
+    if (isDark) {
+        focus.style.filter = "brightness(100%)";
+        isDark = false;
+    } else {
+        focus.style.filter = "brightness(50%)";
+        isDark = true;
+    }
+});
