@@ -6,9 +6,9 @@
 }
 #focus {
    display: flex;
-   height: 500px;
    flex-direction: column;
 }
 #focus img {
     max-width: 100%;
+    height: 500px;
 }
