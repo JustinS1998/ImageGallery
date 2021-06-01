@@ -6,6 +6,7 @@
 }
 #focus {
    display: flex;
+   height: 500px;
 }
 #focus img {
     max-width: 100%;
